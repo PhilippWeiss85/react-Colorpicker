@@ -57,6 +57,7 @@ function App() {
 
   // functions below
   const colorPicker = (cardcolor) => {
+    window.alert(`Your copied ${cardcolor}`);
     return navigator.clipboard.writeText(cardcolor.colorName);
   };
 

@@ -3,12 +3,13 @@
   border: 2px solid black;
   width: 10rem;
   max-width: 20rem;
-  height: 12rem;
+  height: 15rem;
   max-height: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+  position: relative;
   border-top-right-radius: 45px;
 }
