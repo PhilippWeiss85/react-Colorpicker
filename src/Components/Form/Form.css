@@ -1,0 +1,48 @@
+.formContainer {
+  margin: 0 auto;
+  border: 5px solid black;
+  width: 10rem;
+  max-width: 20rem;
+  height: 12rem;
+  max-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.form__colorCode {
+  width: 75%;
+  height: 10%;
+  margin: 0.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.form__colorPicker {
+  height: 20%;
+  width: 75%;
+  border-radius: 15px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.form__submit {
+  border-radius: 10px;
+  background-color: none;
+  border: none;
+  margin-top: 1.5rem;
+}
+
+.form__submit:hover {
+  background-color: lightblue;
+}

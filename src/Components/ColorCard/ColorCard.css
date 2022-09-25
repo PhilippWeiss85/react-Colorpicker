@@ -1,0 +1,14 @@
+.colorCardContainer {
+  margin: 0.5rem;
+  border: 2px solid black;
+  width: 10rem;
+  max-width: 20rem;
+  height: 12rem;
+  max-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border-top-right-radius: 45px;
+}
