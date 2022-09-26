@@ -33,7 +33,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 2rem;
+  background: hsla(0, 0%, 100%, 0.2);
+  margin: 1.5rem;
+  padding: 0.2rem;
+  border-radius: 10px;
 }
 
 .copy__icon {
@@ -47,7 +50,7 @@
 .copy__text {
   font-size: 0.8rem;
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 0.52rem;
 }
 
 .copy__icon:hover {
